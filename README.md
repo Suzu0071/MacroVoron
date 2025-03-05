@@ -1,6 +1,9 @@
 # MacroVoron
+With love, from Suzuki
 
-| Name | Description | Slicer gcode | Standalone |
+☆*: .｡. o(≧▽≦)o .｡.:*☆
+
+| Name | Description | Slicer/Console gcode | Standalone |
 | -------- | -------- | -------- | -------- |
 | Cura-purge-line.cfg | Purge line taken from cura | `_CURA_PURGE_LINE` | ❌ |
 | StartBland.cfg | The most common start macro | `_PRINT_START EXTRUDER=Meow BED=Meow` | ❌ |
