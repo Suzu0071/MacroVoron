@@ -3,6 +3,7 @@ With love, from Suzuki
 
 ☆*: .｡. o(≧▽≦)o .｡.:*☆
 
+*Macros:*
 | Name | Description | Slicer/Console gcode | Standalone |
 | -------- | -------- | -------- | -------- |
 | Cura-purge-line.cfg | Purge line taken from cura | `_CURA_PURGE_LINE` | ❌ |
@@ -13,6 +14,11 @@ With love, from Suzuki
 | SoaktoStart.cfg | Print start that reaches a specific chamber temp to start print | `_PRINT_START EXTRUDER=Meow BED=Meow HEATUP_TEMP=Meow CHAMBER=Meow` | ❌ |
 | LoadFilament.cfg | Push filament into the hotend | `LOAD_FILAMENT` | ✅ |
 | UnloadFilament.cfg | Pull out the filament from the hotend | `UNLOAD_FILAMENT` | ✅ |
+
+*Macro add-ons:*
+| Name | Description  |
+| -------- | -------- |
+| BedFan.cfg | Describes macro changes if using a bed fan(s) |
 
 <img src="./Hoshimi.jpg" width=500>
 
