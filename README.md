@@ -9,7 +9,7 @@ With love, from Suzuki
 | Cura-purge-line.cfg | Purge line taken from cura | `_CURA_PURGE_LINE` | ❌ |
 | StartBland.cfg | The most common start macro | `_PRINT_START EXTRUDER=Meow BED=Meow` | ❌ |
 | EndBland.cfg | The most common end macro | `_PRINT_END` | ❌ |
-| SoakStart.cfg | Print start with a 10 min heatsoak | `_PRINT_START EXTRUDER=Meow BED=Meow CHAMBER=Meow` | ❌ |
+| SoakStart.cfg | Print start with an X min heatsoak | `_PRINT_START EXTRUDER=Meow BED=Meow SOAK_TIME=Meow CHAMBER=Meow` | ❌ |
 | MaterialSoakStart.cfg | Soak or not depends on the material | `_PRINT_START EXTRUDER=Meow BED=Meow HEATUP_TEMP=Meow MATERIAL=[filament_type[initial_extruder]]` | ❌ |
 | SoaktoStart.cfg | Print start that reaches a specific chamber temp to start print | `_PRINT_START EXTRUDER=Meow BED=Meow HEATUP_TEMP=Meow CHAMBER=Meow` | ❌ |
 | LoadFilament.cfg | Push filament into the hotend | `LOAD_FILAMENT` | ✅ |
