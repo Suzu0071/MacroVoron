@@ -3,15 +3,27 @@ With love, from Suzuki
 
 ☆*: .｡. o(≧▽≦)o .｡.:*☆
 
-*Macros:*
+*Start Macros:*
+| Name | Description | Slicer/Console gcode | Standalone | Chamber Sensor |
+| -------- | -------- | -------- | -------- | -------- |
+| StartBland.cfg | The most common start macro | `_PRINT_START EXTRUDER=Meow BED=Meow` | ❌ | ❌ |
+| SoakStart.cfg | Print start with an X min heatsoak | `_PRINT_START EXTRUDER=Meow BED=Meow SOAK_TIME=Meow CHAMBER=Meow` | ❌ | ❌ |
+| MaterialSoakStart.cfg | Soak or not depends on the material | `_PRINT_START EXTRUDER=Meow BED=Meow HEATUP_TEMP=Meow MATERIAL=[filament_type[initial_extruder]]` | ❌ | ✅ |
+| SoaktoStart.cfg | Print start that reaches a specific chamber temp to start print | `_PRINT_START EXTRUDER=Meow BED=Meow HEATUP_TEMP=Meow CHAMBER=Meow` | ❌ | ✅ |
+
+*End Macros:*
+| Name | Description | Slicer/Console gcode | Standalone |
+| -------- | -------- | -------- | -------- |
+| EndBland.cfg | The most common end macro | `_PRINT_END` | ❌ |
+
+*Purge Lines:*
 | Name | Description | Slicer/Console gcode | Standalone |
 | -------- | -------- | -------- | -------- |
 | Cura-purge-line.cfg | Purge line taken from cura | `_CURA_PURGE_LINE` | ❌ |
-| StartBland.cfg | The most common start macro | `_PRINT_START EXTRUDER=Meow BED=Meow` | ❌ |
-| EndBland.cfg | The most common end macro | `_PRINT_END` | ❌ |
-| SoakStart.cfg | Print start with an X min heatsoak | `_PRINT_START EXTRUDER=Meow BED=Meow SOAK_TIME=Meow CHAMBER=Meow` | ❌ |
-| MaterialSoakStart.cfg | Soak or not depends on the material | `_PRINT_START EXTRUDER=Meow BED=Meow HEATUP_TEMP=Meow MATERIAL=[filament_type[initial_extruder]]` | ❌ |
-| SoaktoStart.cfg | Print start that reaches a specific chamber temp to start print | `_PRINT_START EXTRUDER=Meow BED=Meow HEATUP_TEMP=Meow CHAMBER=Meow` | ❌ |
+
+*Random:*
+| Name | Description | Slicer/Console gcode | Standalone |
+| -------- | -------- | -------- | -------- |
 | LoadFilament.cfg | Push filament into the hotend | `LOAD_FILAMENT` | ✅ |
 | UnloadFilament.cfg | Pull out the filament from the hotend | `UNLOAD_FILAMENT` | ✅ |
 
