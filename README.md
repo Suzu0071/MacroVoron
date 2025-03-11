@@ -34,6 +34,7 @@ With love, from Suzuki
 | Name | Description  |
 | -------- | -------- |
 | BedFan.cfg | Describes macro changes if using a bed fan(s) |
+| BedFanBetter.cfg | A better alternative to the normal BedFan.cfg |
 
 <img src="./Hoshimi.jpg" width=500>
 
