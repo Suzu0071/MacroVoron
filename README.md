@@ -18,6 +18,7 @@ With love, from Suzuki
 | Name | Description | Slicer/Console gcode | Standalone |
 | -------- | -------- | -------- | -------- |
 | EndBland.cfg | The most common end macro | `_PRINT_END` | ❌ |
+| EndSafeZ.cfg | Moves the z axis by a specified "safe z" after end | `_PRINT_END` | ❌ |
 
 *Purge Lines:*
 | Name | Description | Slicer/Console gcode | Standalone |
