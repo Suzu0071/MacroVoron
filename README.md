@@ -8,7 +8,7 @@ With love, from Suzuki
 
 *Start Macros:*
 | Name | Description | Slicer/Console gcode | Standalone | Chamber Sensor |
-| -------- | -------- | -------- | -------- | -------- |
+| - | - | - | - | - |
 | StartBland.cfg | The most common start macro | `_PRINT_START EXTRUDER=Meow BED=Meow` | ❌ | ❌ |
 | SoakTimeStart.cfg | Print start with an X min heatsoak | `_PRINT_START EXTRUDER=Meow BED=Meow SOAK_TIME=Meow CHAMBER=Meow` | ❌ | ❌ |
 | MaterialSoakStart.cfg | Soak or not depends on the material | `_PRINT_START EXTRUDER=Meow BED=Meow HEATUP_TEMP=Meow MATERIAL=[filament_type[initial_extruder]]` | ❌ | ✅ |
@@ -16,25 +16,25 @@ With love, from Suzuki
 
 *End Macros:*
 | Name | Description | Slicer/Console gcode | Standalone |
-| -------- | -------- | -------- | -------- |
+| - | - | - | - |
 | EndBland.cfg | The most common end macro | `_PRINT_END` | ❌ |
 | EndSafeZ.cfg | Moves the z axis by a specified "safe z" after end | `_PRINT_END` | ❌ |
 
 *Purge Lines:*
-| Name | Description | Slicer/Console gcode | Standalone |
-| -------- | -------- | -------- | -------- |
-| Cura-purge-line.cfg | Purge line taken from cura | `_CURA_PURGE_LINE` | ❌ |
-| Square.cfg | Adaptive purge in the shape of a square | `_SQUARE_PURGE` | ❌ |
+| Name | Description | Slicer/Console gcode | Standalone | Image | 
+| - | - | - | - | - |
+| Cura-purge-line.cfg | Purge line taken from cura | `_CURA_PURGE_LINE` | ❌ | Coming later |
+| Square.cfg | Adaptive purge in the shape of a square | `_SQUARE_PURGE` | ❌ | `./Images/Square-Purge.png` |
 
 *Random:*
 | Name | Description | Slicer/Console gcode | Standalone |
-| -------- | -------- | -------- | -------- |
+| - | - | - | - |
 | LoadFilament.cfg | Push filament into the hotend | `LOAD_FILAMENT` | ✅ |
 | UnloadFilament.cfg | Pull out the filament from the hotend | `UNLOAD_FILAMENT` | ✅ |
 
 *Macro add-ons:*
 | Name | Description  |
-| -------- | -------- |
+| - | - |
 | BedFan.cfg | Describes macro changes if using a bed fan(s) |
 | BedFanBetter.cfg | A better alternative to the normal BedFan.cfg |
 
