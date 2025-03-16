@@ -24,6 +24,7 @@ With love, from Suzuki
 | Name | Description | Slicer/Console gcode | Standalone |
 | -------- | -------- | -------- | -------- |
 | Cura-purge-line.cfg | Purge line taken from cura | `_CURA_PURGE_LINE` | ❌ |
+| Square.cfg | Adaptive purge in the shape of a square | `_SQUARE_PURGE` | ❌ |
 
 *Random:*
 | Name | Description | Slicer/Console gcode | Standalone |
