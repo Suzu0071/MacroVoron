@@ -38,6 +38,7 @@ With love, from Suzuki
 | BedFan.cfg | Describes macro changes if using a bed fan(s) | ❌ |
 | BedFanBetter.cfg | A better alternative to the normal BedFan.cfg | ❌ |
 | BedFanReverse.cfg | Bed fan will turn on when it passes target temperature | ✅ |
+| MaterialZOffset.cfg | Sets a specific Z offset depending on material printed | ❌ |
 
 <img src="./Hoshimi.jpg" width=500>
 
