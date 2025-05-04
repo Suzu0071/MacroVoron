@@ -31,6 +31,7 @@ With love, from Suzuki
 | - | - | - | - |
 | [LoadFilament.cfg](./Random/LoadFilament.cfg) | Push filament into the hotend | `LOAD_FILAMENT` | ✅ |
 | [UnloadFilament.cfg](./Random/UnloadFilament.cfg) | Pull out the filament from the hotend | `UNLOAD_FILAMENT` | ✅ |
+| [MoveTest.cfg](./Random/MoveTest.cfg) | Does test moves while the bed/extruder are heating up | `_MOVE_TEST` | ❌ |
 
 *Macro add-ons:*
 | Name | Description | Needs Chamber Sensor |
