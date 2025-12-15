@@ -1,10 +1,6 @@
 # MacroVoron
 
-<ins>**Don't copy paste, this is more just an example**</ins>
-
-With love, from Suzuki
-
-☆*: .｡. o(≧▽≦)o .｡.:*☆
+<ins>**Don't blindly copy paste stuff from the internet**</ins>
 
 *Start Macros:*
 | Name | Description | Slicer/Console gcode | Standalone | Needs Chamber Sensor |
@@ -24,7 +20,7 @@ With love, from Suzuki
 | Name | Description | Slicer/Console gcode | Standalone | Image | 
 | - | - | - | - | - |
 | [Cura-purge-line.cfg](./Purge-Line/Cura-purge-line.cfg) | Purge line taken from cura | `_CURA_PURGE_LINE` | ❌ | Coming later |
-| [Square.cfg](./Purge-Line/Square.cfg) | Adaptive purge in the shape of a square | `_SQUARE_PURGE` | ❌ | `./Images/Square-Purge.png` |
+| [Square.cfg](./Purge-Line/Square.cfg) | Adaptive purge in the shape of a square | `_SQUARE_PURGE` | ❌ | <img src="./Images/Square-Purge.png" width=300px> |
 
 *Random:*
 | Name | Description | Slicer/Console gcode | Standalone |
@@ -40,7 +36,10 @@ With love, from Suzuki
 | [BedFanBetter.cfg](./Add-Ons/BedFanBetter.cfg) | A better alternative to the normal BedFan.cfg | ❌ |
 | [BedFanReverse.cfg](./Add-Ons/BedFanReverse.cfg) | Bed fan will turn on when it passes target temperature | ✅ |
 | [MaterialZOffset.cfg](./Add-Ons/MaterialZOffset.cfg) | Sets a specific Z offset depending on material printed | ❌ |
+| [FilamentPA.cfg](./Add-Ons/FilamentPA.cfg) | Sets PA based on material | ❌ |
 
-<img src="https://raw.githubusercontent.com/Suzu0071/Helper-Repository/refs/heads/main/MacroVoron/Hoshimi.png" width=500>
+<img src="https://raw.githubusercontent.com/Suzu0071/Helper-Repository/refs/heads/main/MacroVoron/Hoshimi.png" width=100>
+
+With love, from Suzuki
 
   <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Suzu0071/MacroVoron">MacroVoron</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/Suzu0071">Suzu0071</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p> 
